@@ -6,13 +6,13 @@ $(document).ready(function () {
 $('#home_banner').slick({
     slidesToShow: 1,
     infinite: true,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 2000,
     slidesToScroll: 1,
     dots: false,
     centerMode: false,
     arrows: true,
     autoplay: true,
-    speed: 1000,
+    speed: 2000,
     lazyLoad: 'progressive',
 })
 

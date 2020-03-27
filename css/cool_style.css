@@ -126,6 +126,7 @@ body {
 .padding_0_5 {
   padding: 0 5px;
 }
+
 .white_text {
   color: #fff;
 }
@@ -135,10 +136,14 @@ body {
 .slick-arrow:hover {
   transform: rotate(45deg);
 }
+.img_height {
+  min-height: 320px !important;
+}
 .image_container {
   position: relative;
   width: 100%;
   padding-top: 50%;
+  height: 320px;
 }
 .image_box {
     position: absolute;
@@ -259,5 +264,11 @@ body {
   }
   .pull_container_down {
     margin-top: 9%;
+  }
+  .padding_10_0 {
+    padding: 10px 0 !important;
+  }
+  .padding_0 {
+    padding: 0 !important;
   }
 }
